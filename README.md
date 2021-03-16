@@ -15,9 +15,11 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - 
 
 Below is a screenshot of the active states design that I was attempting to reproduce. The second image is my solution.
-![Screenshot (1)](https://user-images.githubusercontent.com/43033791/111329713-b4da4180-8645-11eb-80d9-333c398add97.png)
 
 ![active-states](https://user-images.githubusercontent.com/43033791/111329942-e521e000-8645-11eb-8bb0-fd56166a906e.jpg)
+
+![Screenshot (1)](https://user-images.githubusercontent.com/43033791/111329713-b4da4180-8645-11eb-80d9-333c398add97.png)
+
  
 
 ### The challenge
