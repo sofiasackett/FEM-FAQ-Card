@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+  <div class="at-image">
+    <img src="images/illustration-box-desktop.svg" alt="">
+  </div>
+  <section class="card">
+    <div class="image-holder">
+      <img src="images/illustration-woman-online-desktop.svg" alt="">
+    </div>
+    <div class="accordion-holder">
+      <h2>FAQ</h2>
+      <div class="accordion__item">
+        <button class="accordion">How many team members can I invite?<i class="arrow down"></i></button>
+        <div class="panel">
+        <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+      </div>
+      </div>
+        
+      <div class="accordion__item">
+        <button class="accordion">What is the maximum file upload size?<i class="arrow down"></i></button>
+        <div class="panel">
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <button class="accordion">How do I reset my password?<i class="arrow down"></i></button>
+          <div class="panel">
+            <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion">Can I cancel my subscription?<i class="arrow down"></i></button>
+          <div class="panel">
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion">Do you provide additional support?<i class="arrow down"></i></button>
+          <div class="panel">
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+
+    </script>
+</body>
+</html>
