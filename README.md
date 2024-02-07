@@ -13,13 +13,12 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 
-Below is a screenshot of the active states design that I was attempting to reproduce. The second image is my solution.
+The following screenshot is the design that I was attempting to reproduce. 
 
 ![active-states](https://user-images.githubusercontent.com/43033791/111329942-e521e000-8645-11eb-8bb0-fd56166a906e.jpg)
 
+The following screenshot is my replication of the design.
 ![Screenshot (1)](https://user-images.githubusercontent.com/43033791/111329713-b4da4180-8645-11eb-80d9-333c398add97.png)
-
- 
 
 ### The challenge
 
